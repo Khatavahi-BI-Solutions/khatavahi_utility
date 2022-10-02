@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include khatavahi_utility *.css
+recursive-include khatavahi_utility *.csv
+recursive-include khatavahi_utility *.html
+recursive-include khatavahi_utility *.ico
+recursive-include khatavahi_utility *.js
+recursive-include khatavahi_utility *.json
+recursive-include khatavahi_utility *.md
+recursive-include khatavahi_utility *.png
+recursive-include khatavahi_utility *.py
+recursive-include khatavahi_utility *.svg
+recursive-include khatavahi_utility *.txt
+recursive-exclude khatavahi_utility *.pyc
